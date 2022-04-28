@@ -1,0 +1,49 @@
+.side{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+.sidebaricon {
+color: grey;
+font-size: large !important;
+
+}
+.SideBarRow > hr {
+    height: 1px;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebartitle
+{
+    flex: 1; /* makes the title take up as much room as possible  */ 
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 300;
+
+
+
+
+}
+
+.side:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.side:hover > .sidebaricon
+{
+    color: red; /* makes on hover a red icon */ 
+
+
+
+}
+.side:hover >.sidebartitle{
+    font-weight: 500;
+
+}
+.side.selected {
+    background-color: lightgray;
+}
